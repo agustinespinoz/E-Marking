@@ -1,0 +1,360 @@
+.generaltable tbody tr .rowactions, #page-mod-emarking-view .flexible tbody tr .printactions,
+	#page-mod-emarking-view .flexible tbody tr .timemodified {
+	display: none;
+}
+
+.generaltable tbody tr:hover .rowactions, #page-mod-emarking-view .flexible tbody tr:hover .printactions,
+	#page-mod-emarking-view .flexible tbody tr:hover .timemodified {
+	display: block;
+}
+
+.actions {
+	min-width: 170px;
+}
+
+#page-mod-emarking-marking-markers .lastcol {
+	width: 70%;
+}
+
+#page-mod-emarking-marking-regraderequests .c0,
+	#page-mod-emarking-marking-outcomes .c0,
+	#page-mod-emarking-marking-pages .c0 {
+	max-width: 150px;
+	min-width: 150px;
+}
+
+.charttitle {
+	text-align: center;
+}
+
+.isanswerkey {
+	background-color: #0f0;
+}
+
+#page-mod-emarking-marking-importrubric .lastrow {
+	margin-bottom: 0px;
+}
+
+#page-mod-emarking-marking-regraderequests .lastcol {
+	min-width: 100px;
+}
+
+#page-mod-emarking-marking-outcomes .c1,
+	#page-mod-emarking-marking-pages .c1 {
+	width: 100%;
+}
+
+.regrademark {
+	max-width: 400px;
+}
+
+.viewmore {
+	cursor: pointer;
+	font-size: 6pt;
+}
+
+.scalelevels {
+	font-size: 12px;
+	font-weight: none;
+}
+
+.flexible .lastname {
+	max-width: 200px;
+}
+
+.deletewidget {
+	position: absolute;
+	margin-top: -30px;
+	background-color: whitesmoke;
+	border-radius: 50%;
+	width: 20px;
+	text-align: center;
+	display: none;
+	margin-left: 40px;
+	color: black;
+	font-weight: bold;
+	box-shadow: 0px 0px 3px #000;
+}
+
+.deletewidget:hover {
+	color: red;
+}
+
+#page-mod-emarking-marking-pages .widget,
+	#page-mod-emarking-marking-markers .widget {
+	border: none;
+}
+
+#page-mod-emarking-marking-markers .widget {
+	background-color: white;
+	box-shadow: none;
+}
+
+#page-mod-emarking-marking-pages .deletewidget {
+	margin-left: 10px;
+}
+
+#page-mod-emarking-marking-markers .deletewidget {
+	margin-left: 20px;
+	margin-top: -40px;
+}
+
+.widget:hover .deletewidget {
+	display: block;
+}
+
+.widget {
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	background-color: #005aa8;
+	color: #fff;
+	padding: 3px;
+	box-shadow: 0px 0px 3px #000;
+	font-weight: bold;
+}
+
+input[type="text"] {
+	height: inherit;
+}
+
+.exportbuttons .singlebutton {
+}
+
+.timeago {
+	font-size: 8pt;
+}
+
+#page-mod-emarking-marking-markers .userpicture {
+	margin-right: 5px;
+}
+
+.pagecriterionbox {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	background-color: #005aa8;
+	color: #fff;
+	padding: 3px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 3px #000;
+	font-weight: bold;
+}
+
+.regradecomment {
+	max-height: 50px;
+	max-width: 150px;
+	overflow-y: scroll;
+}
+
+.rowactions {
+	text-decoration: underline;
+	float: right;
+}
+
+.timemodified {
+	font-size: 8pt;
+}
+
+#page-mod-emarking-view .flexible tbody td {
+	vertical-align: middle;
+	background-color: transparent;
+}
+
+#page-mod-emarking-view .progress {
+	margin-bottom: 0px;
+	width: 100%;
+	background-color: #ccc;
+	background-image: none;
+}
+
+.grade {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#page-mod-emarking-view .flexible tbody tr:hover {
+	background-color: #eee;
+}
+
+.progress-bar {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	font-size: 7pt;
+	text-align: center;
+}
+
+#page-mod-emarking-marking-markers .singlebutton {
+	text-align: center;
+}
+
+.addmarkerstable, .addmarkerstable select {
+	width: 100%;
+}
+
+.exams_examname {
+	min-width: 150px;
+}
+
+.actionscolumn {
+	min-width: 90px;
+}
+
+.printactions div, .printdetails div {
+	display: table-cell;
+	padding-right: 5px;
+}
+
+.printactions i, .printdetails i {
+	font-size: 16px;
+}
+
+.printdetails img, .printactions img {
+	width: 16px;
+	height: 16px;
+}
+
+.downloademarking {
+	cursor: pointer;
+}
+
+.newprintorder input {
+	color: #fff;
+	background-color: #0038a8;
+	background-image: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.examisok {
+	border-left: 4px solid lightblue;
+}
+
+.examislate {
+	border-left: 4px solid red;
+}
+
+.examtoday {
+	border-left: 4px solid green;
+}
+
+clear {
+	clear: both;
+}
+
+.graphcont {
+	padding-top: 10px;
+	color: #000;
+	font-weight: 700;
+	float: left;
+}
+
+.graph {
+	float: right;
+	background-color: #cecece;
+	position: relative;
+	min-width: 100px;
+	padding: 0;
+}
+
+.graph .bar {
+	display: block;
+	position: relative;
+	background-color: #7cd603;
+	background-position: right center;
+	background-repeat: repeat-x;
+	border-right: #538e02 1px solid;
+	text-align: center;
+	color: #fff;
+	height: 12px;
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+/** Agreement **/
+.agreement-selected, .agreement-not-selected, .agreement-yours-selected,
+	.agreement-yours-not-selected, .agreement-some-selected {
+	cursor: pointer;
+	float: left;
+	height: 20px;
+	width: 20px;
+	border: 2px solid #000;
+	background-color: #ffffff;
+	border-color: #48D063;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.agreement-not-selected {
+	background-color: #FF7878;
+}
+
+.agreement-some-selected {
+	background-color: #ffff80;
+}
+
+.agreement-yours-not-selected {
+	background-color: #F3F36F;
+}
+
+.agreement-modify-level, .agreement-modify-level-selected {
+	border: 1px solid #000;
+	border-color: #48D063;
+	background-color: #ffffff;
+	height: 105px;
+	vertical-align: bottom;
+	max-width: 105px;
+	width: 105px;
+}
+
+.agreement-modify-level-selected {
+	background-color: #FF7878;
+}
+
+.emarking-area-cost-button-style {
+	background-color: lightgreen;
+	font: 100%/100% Georgia, "Times New Roman", Times, serif;
+	height: 4em;
+	width: 10em;
+}
+
+.emarking-totalcost-button-style {
+	background: #6495ED;
+	border-style: solid;
+	font: 100%/100% Georgia, "Times New Roman", Times, serif;
+	color: white;
+}
+
+.emarking-column-cost-button-style {
+	background-color: lightgreen;
+	font: 80%/100% Georgia, "Times New Roman", Times, serif;
+	height: 3em;
+	width: 10em;
+}
+
+.emarking-column-totalcost-button-style {
+	background: #6495ED;
+	border-style: solid;
+	font: 80%/100% Georgia, "Times New Roman", Times, serif;
+	color: white;
+}
+
+.emarking-left-table-ranking {
+	width: 49%;
+	float: left;
+}
+
+.emarking-right-table-ranking {
+	width: 49%;
+	float: right;
+}
+
+hr.style-one {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
