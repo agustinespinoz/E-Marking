@@ -44,6 +44,7 @@ $string ['justification'] = 'Justification';
 $string ['justification_help'] = 'You must justify your regrade request';
 $string ['noregraderequests'] = 'There are no regrade requests';
 $string ['regrade'] = 'Regrade';
+$string ['subirpauta'] = 'Subir Pauta';
 $string ['regradingcomment'] = 'Regrading comment';
 $string ['missasignedscore'] = 'Missasigned score';
 $string ['unclearfeedback'] = 'Unclear feedback';

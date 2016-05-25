@@ -44,6 +44,7 @@ $string ['justification'] = 'Justificación';
 $string ['justification_help'] = 'Usted debe justificar su solicitud de recorrección';
 $string ['noregraderequests'] = 'No hay solicitudes de recorrección';
 $string ['regrade'] = 'Recorrección';
+$string ['subirpauta'] = 'Subir Pauta';
 $string ['regradingcomment'] = 'Comentario de recorrección';
 $string ['missasignedscore'] = 'Asignaron menor puntaje del correspondiente';
 $string ['unclearfeedback'] = 'No queda claro dónde está el error';

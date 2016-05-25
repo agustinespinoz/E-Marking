@@ -771,6 +771,27 @@ function emarking_tabs($context, $cm, $emarking) {
         // This case is for students (user can not grade).
         $tabs = $markingtab->subtree;
     }
+    $markingtab->subtree [] = new tabobject("mark", $CFG->wwwroot . "/mod/emarking/index.php?id={$cm->id}",
+    	get_string("Subir Pauta", 'mod_emarking'));
+    if (! $usercangrade) {
+    	if ($emarking->peervisibility) {
+    		$markingtab->subtree [] = new tabobject("ranking", $CFG->wwwroot . "/mod/emarking/reports/ranking.php?id={$cm->id}",
+    		get_string("ranking", 'mod_emarking'));
+    		$markingtab->subtree [] = new tabobject("viewpeers", $CFG->wwwroot . "/mod/emarking/reports/viewpeers.php?id={$cm->id}",
+    		get_string("reviewpeersfeedback", 'mod_emarking'));
+    	}
+    	if ($emarking->type == EMARKING_TYPE_NORMAL) {
+    		$markingtab->subtree [] = new tabobject("regrades",
+    				$CFG->wwwroot . "/mod/emarking/marking/regraderequests.php?id={$cm->id}",
+    				get_string("regrades", 'mod_emarking'));
+    	}
+    } else {
+    	if (has_capability('mod/emarking:regrade', $context) && $emarking->type == EMARKING_TYPE_NORMAL) {
+    		$markingtab->subtree [] = new tabobject("regrades",
+    				$CFG->wwwroot . "/mod/emarking/marking/regraderequests.php?id={$cm->id}",
+    				get_string("regrades", 'mod_emarking'));
+    	}
+    }
     return $tabs;
 }
 /**
