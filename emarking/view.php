@@ -792,6 +792,10 @@ function emarking_get_actions($d, $emarking, $context, $draft, $usercangrade, $i
              $rubriccriteria) {
         $actionsarray [] = "<input type=\"checkbox\" name=\"publish[]\" value=\"$d->id\" title=\"" . get_string("select") . "\">";
     }
+    
+    $actionsarray [] = "<a href='lista.php'>Ver Pauta</a>";
+    $actionsarray [] = "<a href='companero.php'>Comparar con compañeros</a>";
+    
     $divclass = $usercangrade ? 'printactions' : 'useractions';
     $actionshtml = implode("&nbsp;|&nbsp;", $actionsarray);
     if ($emarking->type != EMARKING_TYPE_MARKER_TRAINING) {
