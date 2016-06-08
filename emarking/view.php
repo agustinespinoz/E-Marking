@@ -794,7 +794,7 @@ function emarking_get_actions($d, $emarking, $context, $draft, $usercangrade, $i
     }
     
     $actionsarray [] = "<a href='lista.php'>Ver Pauta</a>";
-    $actionsarray [] = "<a href='companero.php'>Comparar con compañeros</a>";
+    $actionsarray [] = "<a href='reports/viewpeers.php?id=$cm->id'>Comparar con compañeros</a>";
     
     $divclass = $usercangrade ? 'printactions' : 'useractions';
     $actionshtml = implode("&nbsp;|&nbsp;", $actionsarray);
